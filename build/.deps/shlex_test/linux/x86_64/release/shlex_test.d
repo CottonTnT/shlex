@@ -1,7 +1,4 @@
 {
-    files = {
-        "build/.objs/shlex_test/linux/x86_64/release/test/ShlexTest.cpp.o"
-    },
     values = {
         "/usr/sbin/g++",
         {
@@ -9,5 +6,8 @@
             "-lCatch2Main",
             "-lCatch2"
         }
+    },
+    files = {
+        "build/.objs/shlex_test/linux/x86_64/release/test/ShlexTest.cpp.o"
     }
 }

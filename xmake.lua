@@ -7,7 +7,7 @@
 
 -- Catch2 测试框架依赖（xmake 包管理，自动下载/构建并链接）
 add_requires("catch2")
-add_rules("plugin.compile_commands.autoupdate", {outputdir=".build"})
+add_rules("plugin.compile_commands.autoupdate", {outputdir=".vscode"})
 
 -- 头文件库：下游目标 add_deps("shlex") 后即可 #include "Shlex.hpp"
 target("shlex")

@@ -1,10 +1,4 @@
 {
-    depfiles_format = "gcc",
-    depfiles = "ShlexTest.o: test/ShlexTest.cpp Shlex.hpp\
-",
-    files = {
-        "test/ShlexTest.cpp"
-    },
     values = {
         "/usr/sbin/g++",
         {
@@ -14,5 +8,11 @@
             "-Wall",
             "-Wextra"
         }
+    },
+    depfiles_format = "gcc",
+    depfiles = "ShlexTest.o: test/ShlexTest.cpp Shlex.hpp\
+",
+    files = {
+        "test/ShlexTest.cpp"
     }
 }

@@ -1,7 +1,5 @@
 {
     catch2 = {
-        version = "3.14.0",
-        __requirestr = "catch2",
         static = true,
         libfiles = {
             "/usr/lib/libCatch2.a",
@@ -17,6 +15,8 @@
                 "/home/cot/.xmake/packages/n/ninja/v1.13.2/0a9451759a4647b5923438b464085dd6/bin",
                 "/home/cot/.xmake/packages/c/cmake/4.3.4/478c5cdb1d4b47ff91b42b2ceeb382a8/bin"
             }
-        }
+        },
+        version = "3.14.0",
+        __requirestr = "catch2"
     }
 }
