@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/cot/CxxProjects/shlex",
+  "arguments": ["/usr/sbin/g++", "-c", "-m64", "-std=c++17", "-I.", "-Wall", "-Wextra", "-o", "build/.objs/shlex_test/linux/x86_64/release/test/ShlexTest.cpp.o", "test/ShlexTest.cpp"],
+  "file": "test/ShlexTest.cpp"
+}]
