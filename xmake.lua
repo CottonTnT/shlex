@@ -15,7 +15,6 @@ target("shlex")
     add_headerfiles("Shlex.hpp")
     add_includedirs(".", {public = true})
     set_languages("c++17")
-    set_default(true) -- 默认不构建，除非被其他目标依赖
 target_end()
 
 -- Catch2 测试：components 选择 Catch2 v3 的 main（提供测试入口）与 lib（测试框架）
